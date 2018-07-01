@@ -1,0 +1,234 @@
+html {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid rgba(198, 193, 193);
+}
+header .content {
+  display: flex;
+  align-items: center;
+  padding: 1.875rem;
+}
+header .logo {
+  flex: 1 1 0%;
+}
+header nav ul {
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+nav li {
+  padding-left: 3.5rem;
+}
+nav a {
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: rgb(74, 74, 74);
+}
+header .icon {
+  width: 1rem;
+  padding-left: 0.75rem;
+}
+.button {
+  background-color: rgb(74, 74, 74);
+  color: white;
+  border-radius: 4px;
+}
+.main-content {
+  position: relative;
+  top: 5.3125rem;
+}
+#sign-up-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 43.5rem;
+    background-image: url('/Users/user/Desktop/banner-landingpage.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+#sign-up-cta {
+    position: relative;
+    top: 171px;
+    left: 10%;
+    background-color: rgb(157, 194, 11);
+    padding: 0px 5rem 2.5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(151, 151, 151);
+    border-image: initial;
+    border-radius: 4px;
+}
+#sign-up-cta .content {
+    width: 25.625rem;
+    margin-top: 2rem;
+    font-family: Roboto, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: white;
+}
+.center {
+    text-align: center;
+}
+#sign-up-cta .cursive {
+    font-family: Damion, cursive;
+}
+#sign-up-cta h2 {
+    font-size: 2.25rem;
+}
+#sign-up-cta .striking {
+    font-family: Rubik, sans-serif;
+    padding-bottom: 0.75rem;
+}
+#sign-up-cta h1 {
+    font-size: 3.125rem;
+}
+#sign-up-cta span strong {
+    font-weight: bold;
+}
+#sign-up-cta .button {
+    margin-top: 1.625rem;
+    padding: 1.25rem 7.25rem;
+}
+#features-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 243, 243);
+    padding: 4rem 5%;
+}
+.feature {
+    background-color: white;
+    flex: 1 1 0%;
+    padding: 2rem;
+    margin: 0px 1.25rem;
+}
+.center {
+    text-align: center;
+}
+.feature .image-container {
+    width: 90%;
+    height: 65%;
+    margin: 0px auto;
+}
+.image-container {
+    overflow: hidden;
+}
+.image-container img {
+    display: block;
+    max-width: 100%;
+}
+@media only screen and (max-width: 890px)
+.feature h2 {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    font-weight: normal;
+}
+
+.feature h2 {
+    padding-bottom: 0.5rem;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+}
+@media only screen and (max-width: 890px)
+.feature h3 {
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+.feature h3 {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 300;
+    color: rgb(74, 74, 74);
+}
+.feature .content {
+    padding: 2.5rem 0px;
+}
+@media only screen and (max-width: 890px)
+.feature h2 {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    font-weight: normal;
+}
+.feature h2 {
+    padding-bottom: 0.5rem;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+}
+@media only screen and (max-width: 890px)
+.feature h3 {
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+.feature h3 {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 300;
+    color: rgb(74, 74, 74);
+}
+#filters-section {
+    background-color: rgb(74, 74, 74);
+    padding: 4rem 0px;
+}
+#filters-section .content {
+    margin-bottom: 5rem;
+    padding: 0px 0.625rem;
+}
+#filters-section .content h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: white;
+}
+#filters-section .content h3 {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 300;
+    color: white;
+}
+#filters-section .images-container {
+    display: flex;
+    max-width: 100%;
+    padding: 0 1%;
+}
+#quotes-section {
+    background-color: #f3f3f3;
+}
+#quotes-section .content {
+    padding: 5rem 0;
+}
+#quotes-section .quote {
+    padding-right: 1.875rem;
+    font-family: "Palatino", serif;
+    font-size: 1.875rem;
+    line-height: 1.1;
+    font-style: italic;
+    color: #4a4a4a;
+}
+#quotes-section .quote-citation {
+    height: 1.875rem;
+}
+footer {
+    background-color: #9b9b9b;
+    padding: 1.5rem 2rem;
+}
+footer .content {
+    color: white;
+    display: flex;
+    font-size: .75rem;
+}
+footer .copyright {
+    flex-grow: 1;
+}
